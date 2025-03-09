@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const apiRoutes = require("./routes/apiRoutes"); // ✅ Correct path
+const apiRoutes = require("../api/apiRoutes"); // ✅ Correct path
 const errorHandler = require("./middlewares/errorHandler"); // ✅ Correct path
 const cors = require("cors");
 
